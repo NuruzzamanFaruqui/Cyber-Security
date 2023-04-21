@@ -8,7 +8,7 @@ from keras.utils import to_categorical
 
 
 # Load and preprocess the dataset (assuming it is already loaded as a Pandas DataFrame)
-data = pd.read_csv('data/CICIDS2017_sample.csv')
+data = pd.read_csv('Data/CICIDS2017_sample.csv')
 data = data[data['Label'].isin(['Benign', 'DoS', 'DDoS', 'Brute Force', 'MITM', 'Replay'])]
 
 # Encode the labels
