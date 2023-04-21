@@ -1,2 +1,2 @@
-# Cyber-Security
-This repository is for Cyber Security related projects
+# Intrusion Detection using Deep Learning
+LSTM network-based intrusion detection
